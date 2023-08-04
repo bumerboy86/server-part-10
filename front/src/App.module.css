@@ -1,0 +1,38 @@
+.container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin:  0 auto;
+  background: rgb(147, 186, 236);
+  min-height: 100vh;
+}
+
+.userItems {
+  width: 400px;
+  border: 1px solid rgb(3, 80, 104);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.userText {
+  margin-bottom: 10px;
+  word-break: break-all;
+}
+
+button {
+  padding: 15px 25px;
+  background: inherit;
+  border-radius: 10px;
+}
+
+button:not(:disabled):hover {
+  background: rgb(209, 207, 207);
+}
